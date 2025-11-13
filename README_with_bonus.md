@@ -156,7 +156,7 @@ If money <= 0:
 ![Game Over](images/gameover.png)
 ---
 
-# 7. Round Flow (Required Summary)
+# 7. Round Flow 
 
 1. Enter bet → press **Deal**  
 2. Player receives 2 cards  
