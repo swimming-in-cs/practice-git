@@ -206,9 +206,11 @@ This game provides a Display Stored Data button that allows the player to view s
 ### ✔ LocalStorage
 Used to store information that remains across game rounds, such as:
 
-- **money**：the player’s current balance
-- **round**：the current round number
-- **累積遊戲結果紀錄**
+- **Money After**：The player’s money after each round
+- **Round**：Round of the game
+- **Duration (s)**:Play time
+- **Pts (You)**:The player’s points of each roun
+- **Pts (Dealer)**:The dealer’s points of each round
 
 These values remain available even after refreshing or reopening the page.
 
