@@ -169,9 +169,7 @@ If money <= 0:
 
 ---
 
-# 8. Feature — **Cheat Mode** 
-
-Although not required by the assignment, the game includes a bonus “Cheat Mode”.
+# 8. **Cheat Mode** 
 
 ## 8.1 How to enable Cheat Mode
 Player clicks **CHEAT** during a round (after Deal).
