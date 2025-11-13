@@ -217,9 +217,9 @@ These values remain available even after refreshing or reopening the page.
 ### ✔ SessionStorage 
 Used to store data only for the current browsing session, including:
 
-- **lastAction**：上一個動作（Hit / Stand / Deal）  
-- **cheatOn**：是否啟用 Cheat Mode  
-- **currentBet**：此局下注金額  
+- **Round**：Round of the game  
+- **Player Cards**：The player's cards of each round 
+- **Dealer Cards**：The dealer's cards of each round 
 
 All session data is cleared automatically when the page is closed.
 
