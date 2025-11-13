@@ -1,4 +1,4 @@
-#  – HW3  Blackjack
+#  HW3  Blackjack
 
 **Name:** 林均豪  
 **Student ID:** 111550005  
