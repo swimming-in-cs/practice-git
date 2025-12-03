@@ -5,9 +5,9 @@
 
 ---
 
-## 🧑‍💻 Features Implemented
+## Basic Requirements
 
-### 1. ✅ User Authentication
+### 1. registration page
 - User registration  
 - Login with session-based authentication  
 - Guest access prevention  
@@ -16,7 +16,7 @@
 
 ---
 
-### 2. ✅ Task Management (CRUD)
+### 2.  login page
 Each user can:
 
 - **Create** tasks with title, deadline, category  
@@ -35,7 +35,7 @@ Tasks display:
 
 ---
 
-### 3. ✅ Category Management (CRUD)
+### 3.  logout button in the to-do list pages
 Users can:
 
 - Create new categories  
