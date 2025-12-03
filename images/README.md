@@ -27,11 +27,7 @@ Each user can:
   - Change category  
 - **Delete** tasks  
 
-Tasks display:
 
-- Remaining days until deadline  
-- "Today" when deadline is today  
-- "Overdue" if past deadline (row highlighted in red)  
 
 ---
 
@@ -42,14 +38,10 @@ Users can:
 - Rename categories  
 - Delete categories (also deletes associated tasks)  
 
-The default category:
-
-- **Cannot be renamed**  
-- **Cannot be deleted**  
 
 ---
 
-### 4. ✅ Deadline Logic
+### 4. Add a new task, deadline and select the to-do category
 Using SQL `DATEDIFF`:
 
 - `days_left > 0` → *X days remaining*  
@@ -64,7 +56,73 @@ Sorting logic:
 
 ---
 
-### 5. ✅ Persistent Data
+### 5. Add a new category 
+- All data is stored in MySQL  
+- Reloading the page always fetches **latest DB data**  
+- **POST→Redirect→GET (PRG)** pattern prevents duplicate submissions  
+
+---
+
+### 6. Change the name of the task 
+- All data is stored in MySQL  
+- Reloading the page always fetches **latest DB data**  
+- **POST→Redirect→GET (PRG)** pattern prevents duplicate submissions  
+
+---
+
+### 7. Change the category of the task
+- All data is stored in MySQL  
+- Reloading the page always fetches **latest DB data**  
+- **POST→Redirect→GET (PRG)** pattern prevents duplicate submissions  
+
+---
+
+### 7. Change the name of the category
+- All data is stored in MySQL  
+- Reloading the page always fetches **latest DB data**  
+- **POST→Redirect→GET (PRG)** pattern prevents duplicate submissions  
+
+---
+
+### 8. Delete the task
+- All data is stored in MySQL  
+- Reloading the page always fetches **latest DB data**  
+- **POST→Redirect→GET (PRG)** pattern prevents duplicate submissions  
+
+---
+
+### 9. Delete the category and the tasks of this category
+- All data is stored in MySQL  
+- Reloading the page always fetches **latest DB data**  
+- **POST→Redirect→GET (PRG)** pattern prevents duplicate submissions  
+
+---
+
+### 10. Use checkbox (or other methods) to show if the task is 
+finished
+- All data is stored in MySQL  
+- Reloading the page always fetches **latest DB data**  
+- **POST→Redirect→GET (PRG)** pattern prevents duplicate submissions  
+
+---
+
+### 11.  Save the data to database after each modification
+- All data is stored in MySQL  
+- Reloading the page always fetches **latest DB data**  
+- **POST→Redirect→GET (PRG)** pattern prevents duplicate submissions  
+
+---
+
+### 12. After reloading the page or logging in again, the content 
+should not show outdated data (read data from 
+database) 
+- All data is stored in MySQL  
+- Reloading the page always fetches **latest DB data**  
+- **POST→Redirect→GET (PRG)** pattern prevents duplicate submissions  
+
+---
+
+### 8. Delete the task
 - All data is stored in MySQL  
 - Reloading the page always fetches **latest DB data**  
 - **POST→Redirect→GET (PRG)** pattern prevents duplicate submissions  
