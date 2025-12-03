@@ -1,13 +1,6 @@
 # HW4 — To-Do List Website
 
-## ⭐ Overview
-This project is a **PHP-based To-Do List Web Application** implementing user authentication, task management, and category management.  
-All user data is stored in a MySQL database and persists across sessions.  
-This assignment fulfills **all HW4 requirements**.
 
----
-
-## 📁 Project Structure
 
 
 ---
